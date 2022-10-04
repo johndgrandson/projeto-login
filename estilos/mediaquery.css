@@ -2,7 +2,7 @@
 
 
 
-@media screen and (min-width:768px) and (max-width: 992px) {
+@media screen and (min-width:720px) and (max-width: 992px) {
 
     body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
@@ -15,6 +15,14 @@
 
     div#formulario > p {
         font-size: 1em;
+    }
+
+    form > input[type=submit] {
+        margin-top: 10px;
+    }
+
+    form > a.botao {
+        margin-top: 5px;
     }
 
     section#login > div#imagem {
@@ -39,6 +47,14 @@
     div#formulario > p {
         font-size: 1em;
         margin: 20px;
+    }
+
+    form > input[type=submit] {
+        margin-top: 10px;
+    }
+
+    form > a.botao {
+        margin-top: 5px;
     }
 
     section#login {
