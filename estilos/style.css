@@ -60,15 +60,12 @@ div#formulario > h1 {
 }
 
 div#formulario > p {
-    text-align: justify;
+    text-align: center;
     text-indent: 10px;
-    padding: 5px;
+    font-size: 0.8em;
 }
 
-label {
-    display: none;
-}
-
+/*
 input.form {
     display: block;
     margin: auto;
@@ -79,7 +76,7 @@ input.form {
     width: 150px;
     border-radius: 5px;
 }
-
+*/
 .enviar {
     display: block;
     margin: auto;
